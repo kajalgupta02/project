@@ -80,8 +80,8 @@ class OverclockingGUI:
         self.update_processes() # Process list
 
     def setup_gui(self):
-        self.master.title("PyCPU Control Center")
-        self.master.geometry("1280x800")
+        self.master.title("Vortex")
+        self.master.geometry("800x600")
         
         # Create a Notebook (tabbed interface)
         self.notebook = ttk.Notebook(self.master)
